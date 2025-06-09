@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #035e9d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8vw 2vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 1vw;
+}
+
+.navbar-title {
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.navbar-username {
+  font-size: 0.95vw;
+}
+
+.navbar-profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}

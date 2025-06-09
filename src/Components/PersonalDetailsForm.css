@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+ 
+.container-personal {
+  font-family: 'Poppins', sans-serif;
+  padding: 2vw;
+  background-color: #f9f9f9;
+   min-height: 100vh 
+  
+}
+
+
+.header {
+  background-color: #035e9d;
+  color: white;
+  padding: 1vw 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 1vw;
+}
+
+.title {
+  font-size: 1.8vw;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.form-card {
+  background: white;
+  padding: 2vw;
+  margin-top: 2vw;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vw;
+  
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.save-btn {
+  background-color: #3e85f5;
+  color: white;
+  border: none;
+  padding: 0.6vw 1.5vw;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1vw;
+}
+
+/* .form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5vw;
+} */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 1.5vw;
+}
+
+.form-group-sec{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw; 
+}
+.form-groupone {
+display: flex;
+flex-direction: column;
+  /* Gap between rows */
+  width:15vw;
+  
+}
+
+.form-groupone select{
+
+    padding: 1.5vh;
+    border-radius: 0vw;
+    background-color: #f9f9f9;
+    margin-top: 1vh;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  align-items: center;
+  gap: 1vw;
+}
+
+.form-row label {
+  font-size: 0.9vw;
+  font-weight: 500;
+}
+
+.form-row input,
+.form-row select {
+  padding: 0.6vw;
+  font-size: 0.9vw;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5vw;
+  font-size: 0.9vw;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.7vw;
+  font-size: 0.9vw;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+}

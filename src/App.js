@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ExamInstructions from "./ExamInstructions";
+import ExamQuestion from "./ExamQuestion";
+import ExamQuestionPage from "./ExamQuestionPage";
+import EndTest from "./EndTest";
+import StudentProfile from "./StudentProfile";
+import PersonalDetailsForm from "./PersonalDetailsForm";
+import Navbar from "./Components/Navbar";
+import TestReview from "./TestReview";
 
-function App() {
+ const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+   <ExamInstructions/> 
+   <ExamQuestion/>  
+  <ExamQuestionPage/>
+   <EndTest/>
+   <StudentProfile/>
+   <PersonalDetailsForm/>
+   <TestReview/>
+   
+     
+     
+    </>
   );
-}
+};
 
 export default App;
+

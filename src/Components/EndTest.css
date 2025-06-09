@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.endtest-container {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00598D;
+  color: white;
+  padding: 10px 30px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.brand-title {
+  font-size: 1.5vw;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-name {
+  font-size: 1vw;
+}
+
+.profile-pic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+/* End Test Box */
+.endtest-box {
+  margin: 5vw auto;
+  padding: 2vw;
+  margin-top: 1vw;
+  max-width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 1vw;
+  text-align: center;
+  height: 100vh;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* .student-info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+  margin-right: 33vw;
+  padding: 0vw ;
+  
+  
+} */
+
+.student-info {
+  display: flex;
+  justify-content: flex-start;   
+  gap: 3vw;                      
+  font-size: 1.2vw;              
+
+             
+  margin-right: 0vw;             
+  padding: 0;
+  
+  border-bottom: 1px solid #C6C6C6;          
+}
+
+
+ hr {
+  margin: 0vw 0 5vw;
+  border: 0;
+  height: 0vw;
+   margin-bottom: 10vw;
+
+  
+  background: #ccc;
+} 
+
+.end-message h2 {
+  font-size: 2vw;
+  
+}
+
+.end-message p {
+  font-size: 1vw;
+  color: #666;
+  
+}
+
+.review-btnend{
+  margin-top: 2vw;
+  padding: 0.6vw 1.5vw;
+  font-size: 1vw;
+  background-color: #00598D;
+  color: #fff;
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.review-btnend:hover {
+  background-color: #004b76;
+}
