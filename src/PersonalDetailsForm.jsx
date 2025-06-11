@@ -23,16 +23,8 @@ const PersonalDetailsForm = () => {
 
   return (
     <div className="container-personal">
-      <header className="header">
-        <div className="logo-title">
-          <img src="/logo192.png" alt="logo" className="logo" />
-          <h1 className="title">Paper Setter</h1>
-        </div>
-        <div className="profile">
-          <span>Rakesh Nikam</span>
-          <img src="/profile.jpg" alt="profile" className="profile-img" />
-        </div>
-      </header>
+      
+    
 
       <div className="form-card">
         <div className="form-header">
@@ -40,7 +32,7 @@ const PersonalDetailsForm = () => {
             <img src="/profile.jpg" alt="User" className="user-img" />
             <div>
               <h3>Rakesh Nikam</h3>
-              <p>rakeshnikam@gmail.com</p>
+              
             </div>
           </div>
           <button className="save-btn" onClick={handleSave}>Save</button>
@@ -75,14 +67,7 @@ const PersonalDetailsForm = () => {
             </select>
           </div>
 
-          <div className="form-group">
-            <label>Cluster</label>
-            <select name="cluster" value={formData.cluster} onChange={handleChange}>
-              <option value="">Your Cluster Name</option>
-              <option value="Vikhroli">Vikhroli</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
+          
 <div className="form-group-sec">
           <div className="form-groupone">
             <label>Tahsil</label>

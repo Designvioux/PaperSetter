@@ -7,18 +7,28 @@ import StudentProfile from "./StudentProfile";
 import PersonalDetailsForm from "./PersonalDetailsForm";
 import Navbar from "./Components/Navbar";
 import TestReview from "./TestReview";
+import LoginPage from "./LoginPage";
 
  const App = () => {
   return (
     <>
-    <Navbar/>
+    
+    <LoginPage/> 
+     <Navbar/>
    <ExamInstructions/> 
+    <Navbar/>
    <ExamQuestion/>  
+    <Navbar/>
   <ExamQuestionPage/>
+   <Navbar/>
    <EndTest/>
+    <Navbar/>
    <StudentProfile/>
+    <Navbar/>
    <PersonalDetailsForm/>
+    <Navbar/>
    <TestReview/>
+   
    
      
      

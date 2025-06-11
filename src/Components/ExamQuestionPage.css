@@ -26,18 +26,12 @@ body {
   width: 40px;
 }
 
-
-
-
 .exam-Pagesubtitle {
   padding: 1vw 2vw;
   font-size: 1.5vw;
   margin: 0;
   margin-left: 2vw;
-  
-  font-family: Poppins;
-   
-}
+  }
 
 .exam-Pagemain {
   display: flex;
@@ -95,20 +89,12 @@ body {
   gap: 1vw;
 }
 
-/* .nav-btn {
-  background-color: #0368d9;
-  color: white;
-  padding: 0vw 1vw;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-left: 4vw;
-} */
+
 
 .nav-PagebtnOne {
   background-color: var(--Primary-Blue, #00598D);;
   color:White;
-  padding: 0.6vw 1.5vw;           /* More balanced padding */
+  padding: 0.6vw 1.5vw;           
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -116,8 +102,8 @@ body {
   transition: background-color 0.3s ease;
   margin-right: 1vw;
   margin-top: 10vw;
-  width: 8vw;                     /* Perfect fixed width */
-  height: 3vw;                    /* Perfect fixed height */
+  width: 8vw;                     
+  height: 3vw;                    
   text-align: center;
 }
 
@@ -125,10 +111,10 @@ body {
 .nav-PagebtnPreview {
   padding: 0.6vw 1.5vw;
   font-size: 0.9vw;
-  border: 1px solid var(--Grey, #848484); /* Light grey border */
+  border: 1px solid var(--Grey, #848484); 
   border-radius: 6px;
-  background-color: var(--White, #FFF);  /* White background */
-  color: var(--Grey, #848484);           /* Grey text color */
+  background-color: var(--White, #FFF);  
+  color: var(--Grey, #848484);           
   cursor: pointer;
   margin-left: 50vw;
   margin-top: 10vw;
@@ -166,7 +152,7 @@ body {
   color: #555;
 }
 .Exam-Pagetimer {
-  color: red;                        /* Highlight the urgency */
+  color: red;                       
 padding: 0vh;
 margin: 2vh;
 margin-left: 17vw;
@@ -190,10 +176,9 @@ margin-left: 17vw;
   font-size: 0.9vw;
 margin-left: 1vw;
   display: flex;
-  flex-direction: column;      /* Stack content vertically */
-  justify-content: center;     /* Vertical centering */
-  align-items: center;         /* Horizontal centering */
-  text-align: center;          /* Center multiline text */
+  flex-direction: column;    
+  align-items: center;         
+  text-align: center;          
 
 }
 .question-Pagecount-box {
@@ -203,24 +188,15 @@ margin-left: 1vw;
   border: 1px solid #ccc;
   margin-top: 1vw;
   width: 20vw;
-  height: auto;
+   height: 35vh;
   font-size: 0.9vw;
 margin-left: 1vw;
   display: flex;
-  flex-direction: column;      /* Stack content vertically */
-  justify-content: center;     /* Vertical centering */
-  align-items: center;         /* Horizontal centering */
-  text-align: center;          /* Center multiline text */
+  flex-direction: column;      
+  justify-content: center;     
+  align-items: center;         
+  text-align: center;         
 }
-
-/* .instruction-box,
-.question-count-box {
-  background-color: white;
-  padding: 1.5vw;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  margin-top: 3vw;
-} */
 
 .instruction-Pagebox ul {
   list-style: none;
@@ -235,16 +211,40 @@ margin-left: 1vw;
   display: flex;
   align-items: center;
   gap: 0.5vw;
-  
 }
-
 .dotPage {
   width: 1vw;
   height: 1vw;
   border-radius: 50%;
   display: inline-block;
 }
+.question-Pagegrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.6vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+.question-Pagenumber {
+  width: 2vw;
+  height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+  border-radius: 50%;
+  font-size: 1vw;
+  cursor: pointer;
+}
+.question-Pagenumber.current {
+  background-color: #1e90ff;
+  color: white;
+}
 
+.question-Pagenumber.answered {
+  background-color: #28a745;
+  color: white;
+}
 .green {
   background-color: #4caf50;
 }
@@ -257,36 +257,6 @@ margin-left: 1vw;
 .white {
   background-color: #ffffff;
   border: 1px solid #ccc;
-}
-
-.question-Pagegrid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 0.6vw;
-  margin-top: 1vw;
-  margin-left: 1vw;
-}
-
-.question-Pagenumber {
-  width: 2.5vw;
-  height: 2.5vw;
-  border-radius: 50%;
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1vw;
-  cursor: pointer;
-}
-
-.question-Pagenumber.current {
-  background-color: #2196f3;
-  color: white;
-}
-
-.question-Pagenumber.answered {
-  background-color: #4caf50;
-  color: white;
 }
 .modal-overlay {
   position: fixed;
